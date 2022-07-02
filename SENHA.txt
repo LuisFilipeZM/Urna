@@ -1,0 +1,4 @@
+Senha para login de mesario = admin/admin
+
+
+Senha para login de eleitor = algum cpf da lista de eleitores e senha 123
