@@ -9,7 +9,7 @@
     $uf = $_POST['uf'];
     $senha = md5($_POST['senha']);
     $ativo = $_POST['ativo'];
-
+ 
     if ($_POST['id']) {
         $sql = "UPDATE eleitor 
                 SET nome='$nome', cpf='$cpf', rg='$rg', numtitulo='$titulo', uf='$uf', senha='$senha', ativo='$ativo'

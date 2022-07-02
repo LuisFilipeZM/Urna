@@ -17,7 +17,7 @@
             ORDER BY VOTOCOMPUTADO DESC";
 
     $resultado = mysqli_query($conexao, $sql);
-?>
+?> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
