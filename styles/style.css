@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fundo{
+    background-image: linear-gradient(45deg, yellow, green);
+    background-size: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.urna{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-style: inherit;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1%;  
+    text-align: center;
+    table-layout: fixed;
+}
+#botao{
+    height: 5px;
+    width: 5px;
+    font-size: 25px;
+    margin: 15px;
+    padding: 38px;
+}
+#botao2{
+    padding: 10px;
+    margin: 9px;
+}
+#resultado{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.login{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+    width: 30%;
+}
+.candidatos{
+    color: black;
+}
+h1{
+    text-align: center;
+}
+.cadastro{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+    width: 30%;
+    color: white;
+}
+.lista{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+    width: 30%;
+    color: white;
+}
+#edit{
+    padding: 1%;
+}
+.card{
+    margin-bottom: 5%;
+}
+.voto{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2%;
+    color: white;
+}
+.data{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    height: 650px;
+    transform: translate(-50%, -50%);
+}
+.logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 70%;
+    transform: translate(-50%, -50%);
+}
